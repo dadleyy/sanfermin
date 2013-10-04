@@ -1,7 +1,7 @@
 {
   "name": "sanfermin",
   "version": "0.0.1",
-  "description": "",
+  "description": "The javascript code required for the San Fermin visualization",
   "private": true,
   "author": "Danny Hadley <danny@diddel.me>",
   "license": "MIT",
