@@ -4,5 +4,8 @@
   "description": "",
   "private": true,
   "author": "Danny Hadley <danny@diddel.me>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "~0.4.1"
+  }
 }
