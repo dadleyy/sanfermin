@@ -9,6 +9,9 @@
   "author": "Danny Hadley <danny@diddel.me>",
   "license": "MIT",
   "dependencies": {
-    "grunt": "~0.4.1"
+    "grunt": "~0.4.1",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-smash": "~0.1.0",
+    "grunt-contrib-uglify": "~0.2.4"
   }
 }
