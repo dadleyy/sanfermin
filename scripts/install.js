@@ -1,4 +1,4 @@
 var grunt = require('grunt'),
-    config = reqire('../Gruntfile.js');
+    config = require('../Gruntfile.js');
 
 grunt.task.run('build');
