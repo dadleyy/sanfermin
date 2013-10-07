@@ -3,9 +3,12 @@
   "version": "0.0.1",
   "description": "The javascript code required for the San Fermin visualization",
   "private": true,
+  "scripts": {
+    "install": "node scripts/install.js"
+  },
   "author": "Danny Hadley <danny@diddel.me>",
   "license": "MIT",
-  "devDependencies": {
+  "dependencies": {
     "grunt": "~0.4.1"
   }
 }
