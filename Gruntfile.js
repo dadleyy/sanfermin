@@ -1,5 +1,3 @@
-var grunt = require('grunt');
-
 module.exports = function(grunt) {
 
   grunt.loadNpmTasks('grunt-contrib-clean');
@@ -24,6 +22,6 @@ module.exports = function(grunt) {
   });
 
   grunt.registerTask('build', ['clean', 'smash']);
-  grunt.registerTask('default',[ ]);
+  grunt.registerTask('default', ['build']);
 
 };

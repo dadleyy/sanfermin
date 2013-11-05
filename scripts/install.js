@@ -1,6 +1,6 @@
 var grunt = require('grunt'),
-    config = require('../Gruntfile.js');
+    config = require('../Gruntfile');
 
-config(grunt);    
+config(grunt);
 
-grunt.task.run('build');
+grunt.tasks('build');
