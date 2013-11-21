@@ -5,7 +5,8 @@ module.exports = function(config) {
     frameworks: ['jasmine'],
 
     files: [
-      'bower_components/**/*.js',
+      'bower_components/angular/angular.js',
+      'bower_components/angular-mocks/angular-mocks.js',
       'src/**/*.js',
       'spec/**/*_spec.js'  
     ],
@@ -21,7 +22,7 @@ module.exports = function(config) {
     autoWatch: true,
     browsers: ['Chrome'],
     captureTimeout: 60000,
-    singleRun: true 
+    singleRun: false
   });
 
 };

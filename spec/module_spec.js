@@ -1,7 +1,9 @@
 describe('testing module definition', function() {
 
-  it('should pass using karma', function() {
-    expect(true).toBe(true);
+  beforeEach(module('sf'));
+
+  it('should load the module successfully', function() {
+    expect(window.sf).toBeDefined();
   });
 
 });
